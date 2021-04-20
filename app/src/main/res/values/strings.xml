@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">VirtualFitting</string>
+    <string name="tv_login_welcome">Welcome</string>
+    <string name="et_login_user_name">用户名</string>
+    <string name="et_login_password">密码</string>
+    <string name="tv_login_code_login">验证码登录</string>
+    <string name="tv_login_forget_password">忘记密码？</string>
+    <string name="tv_login_login">登录</string>
+    <string name="tv_login_create_user">创建账号</string>
+    <string name="tv_xx">xxxx</string>
+    <string name="tv_personal_user_my_model">我的模型</string>
+    <string name="tv_personal_user_wear_model">服装模型</string>
+    <string name="tv_personal_user_my_wear">我的穿搭</string>
+    <string name="tv_personal_user_my_collection">我的收藏</string>
+    <string name="tv_personal_vip_subscription">VIP订阅</string>
+</resources>
