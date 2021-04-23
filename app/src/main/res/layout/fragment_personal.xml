@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_personal_user_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@null"
+        android:src="@drawable/iv_personal_user_bg" />
 
     <ImageView
         android:id="@+id/iv_personal_user_icon"
@@ -149,7 +156,8 @@
         android:layout_height="1dp"
         android:background="#DFDFDF"
         app:layout_constraintBottom_toBottomOf="@+id/view_personal_user_my_model_bg"
-        tools:layout_editor_absoluteX="22dp" />
+        android:layout_marginStart="22dp"
+        android:layout_marginEnd="22dp"/>
 
     <View
         android:id="@+id/view_personal_user_wear_model_bg"
