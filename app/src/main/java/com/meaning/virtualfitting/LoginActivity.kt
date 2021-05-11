@@ -12,7 +12,7 @@ class LoginActivity : AppCompatActivity() {
         bt_login_login.setOnClickListener {
 //            var userName = et_login_user_name.text.toString()
 //            var password = et_login_password.text.toString()
-            val intent = Intent(this, MainActivity::class.java)
+            val intent = Intent(this, RootActivity::class.java)
             startActivity(intent)
         }
     }
